@@ -1,0 +1,115 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #007bff;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.alert-info {
+    font-size: 18px;
+}
+
+/* Apply a cartoonish background */
+body {
+    background-color: #ffe4e1;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container */
+.container {
+    background-color: #fff7c2;
+    border-radius: 20px;
+    box-shadow: 8px 8px 16px #ffcccb;
+    padding: 40px;
+    max-width: 600px;
+}
+
+/* Heading */
+h2 {
+    color: #ff6b81;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #ffa07a;
+}
+
+/* Form fields styling */
+.form-label {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Input and select fields */
+.form-control {
+    border-radius: 15px;
+    border: 2px solid #ffa07a;
+    background-color: #fffaf0;
+    font-size: 16px;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #ff6b81;
+    border-color: #ff6b81;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background-color: #ff4757;
+    border-color: #ff4757;
+    transform: scale(1.05);
+}
+
+/* Prediction message styling */
+.alert-info {
+    background-color: #ffeaa7;
+    border-color: #fbc531;
+    color: #333;
+    border-radius: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+
+/* Title Styling */
+.title {
+    font-size: 30px; /* Increase Font Size */
+    font-weight: bold; /* Bold Text */
+    font-family: 'Fredoka', sans-serif; /* Clean and Modern Font */
+    color: #ff4757; /* Bright Red for Excitement */
+    text-shadow: 5px 5px 10px rgba(255, 105, 135, 0.6); /* Glowing Effect */
+    /* padding: 20px; Add Padding */
+    margin-bottom: 30px; /* Space Below Title */
+    text-align: normal; /* Center Align */
+}
+
+/* Smaller Text for Sub-Title */
+.small-text {
+    font-size: 24px; /* Smaller than the main title */
+    font-weight: normal; /* Optional: Adjust weight */
+    color: #ff6b81; /* Slightly softer color */
+    text-align: center; /* Center Align */
+}
+
